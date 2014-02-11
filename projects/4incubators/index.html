@@ -17,14 +17,17 @@
     <![endif]-->
 
     <style type="text/css">
-        
+        html {
+          width: auto !important;
+          overflow-x: hidden !important;
+        }
         .center 
         {
             text-align:center;
             position:relative;
             margin: 175px 0px;
         }
-        a {text-decoration: none;}
+        
         body 
         {
             background: #240048;  
@@ -39,45 +42,74 @@
             color:#FFFFFF;
         }
         
-        a:link {color:#FFFFFF;text-decoration: none;}      /* unvisited link */
-        a:visited {color:#FFFFFF;text-decoration: none;}  /* visited link */
-        a:hover {color:#FFFFFF;text-decoration: none;}  /* mouse over link */
-        a:active {color:#FFFFFF;text-decoration: none;}  /* selected link */ 
+        .row 
+        {
+            padding-bottom:175px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        
+        .heading
+        {
+            
+        }
+        
+        .description
+        {
+            word-wrap:break-word;
+        }
+        
+        #title
+        {
+            font-size:50px;
+        }
+        
+        #tag-line
+        {
+            font-size:20px;
+        }
+        
+        .heading-link:link {color:#FFFFFF;text-decoration: none;}      /* unvisited link */
+        .heading-link:visited {color:#FFFFFF;text-decoration: none;}  /* visited link */
+        .heading-link:hover {color:#FFFFFF;text-decoration: none;}  /* mouse over link */
+        .heading-link:active {color:#FFFFFF;text-decoration: none;}  /* selected link */ 
     </style>
 </head>
 <body>
     
 	<div class="center">
-        <h1><b>4 Incubators</b></h1>
-        <p>We Educate | Inspire | Co Build Early Stage Startups </p>          
+        <h1 id="title"><b>4 Incubators</b></h1>
+        <p id="tag-line">We Educate | Inspire | Co Build Early Stage Startups </p>          
     </div>
     <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
             <hr />
 
-            <div class="container">
-                <a href="https://medium.com/preseed-verticals/637e209f73f1">
-                    <h3><b>Ugly MVP</b></h3>
-                    <p>Minimum Viable Products should remain ill designed till not customer validated, but not after.</p>
+            <div class="col-lg-12">
+                <a class="heading-link" href="https://medium.com/preseed-verticals/637e209f73f1">
+                    <h3 class="heading"><b>Ugly MVP</b></h3>
                 </a>
+                    <p class="description">We need those who can design beautifully and are ready to design for our portfolio in return for a stake in 4incubators.</p>
             </div>
-            <div class="container">
-                <a href="https://medium.com/preseed-verticals/55d39987d232">
-                    <h3><b>Flow</b></h3>
-                    <p>On internet things can flow. On interenet things can grow.</p>
+            <div class="col-lg-12">
+                <a class="heading-link" href="https://medium.com/preseed-verticals/55d39987d232">
+                    <h3 class="heading"><b>Flow</b></h3>
                 </a>
+                    <p class="description">We need those who can distribute our portfolio products to early adopters in exchange for a stake at 4incubators.</p>
             </div>
-            <div class="container">
-                <a href="https://medium.com/preseed-verticals/5a9475ea2373">
-                    <h3><b>4 Accelerator</b></h3>
-                    <p>Our accelerator for only our notable startups. Lunching in 2017.</p>
+            <div class="col-lg-12">
+                <a class="heading-link" href="https://medium.com/preseed-verticals/5a9475ea2373">
+                    <h3 class="heading"><b>4 Accelerator</b></h3>
                 </a>
+                    <p class="description">To be launched in 2017.</p>
             </div>
-            <div class="container">
-                <a href="https://medium.com/preseed-verticals/7fa0073f5e6c">
-                    <h3><b>Prefund</b></h3>
-                    <p>We make you fund ready.</p>
+            <div class="col-lg-12">
+                <a class="heading-link" href="https://medium.com/preseed-verticals/7fa0073f5e6c">
+                    <h3 class="heading"><b>Prefund</b></h3>
                 </a>
+                    <p class="description">I will handle this myself. I have commitments from investors willing to back the portfolio of products I 
+                        believe in - <a href="https://twitter.com/Nishchal" >@nishchal</a>, Founder - <a href="https://twitter.com/thePreseed" >@thePreseed</a>
+                    </p>
             </div>
         </div>
     </div>
