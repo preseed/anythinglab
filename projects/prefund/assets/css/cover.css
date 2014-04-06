@@ -8,7 +8,33 @@ a:focus,
 a:hover {
   color: #000;
 }
+.btn-block{
+  width:50%;
 
+}
+.btn-danger{
+  background-color:#990000;
+  border-color:#990000;
+}
+.btn-danger:hover{
+  background-color:#990000;
+  border-color:#990000;
+
+
+}
+.sec{
+  padding-top:100px;
+  background-color: #ffffff;
+  width: auto;
+  color:#000000;
+  padding-bottom:50px;
+}
+/*customfonts*/
+@font-face{
+font-family: myriadpror;
+src : url('assets/fonts/myriadpror.woff');
+}
+/*fontsend*/
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -21,7 +47,7 @@ a:hover {
 /*new divs*/
 hr{
   margin: 0 200px 100px;
-  border-color:#000;
+  border-color:#fff;
 }
 .a
 {
@@ -48,15 +74,15 @@ body {
 body {
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  height: 110%;
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
-  height: 100%; /* For at least Firefox */
+  height: 110%; /* For at least Firefox */
   min-height: 100%;
 }
 .site-wrapper-inner {
