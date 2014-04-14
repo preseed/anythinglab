@@ -12,6 +12,14 @@ a:hover {
   width:50%;
 
 }
+.trans{
+  width:40%;
+  height:30%;
+  color:#000000;
+  background-color: rgba(255,255,255,0.9);
+  margin: 0 auto;
+  overflow: none;
+}
 .btn-danger{
   background-color:#990000;
   border-color:#990000;
