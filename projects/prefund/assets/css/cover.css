@@ -12,6 +12,9 @@ a:hover {
   width:50%;
 
 }
+body{
+  background-color: #ffffff;
+}
 .trans{
   width:40%;
   height:30%;
@@ -77,7 +80,7 @@ h4{
 html,
 body {
   height: 110%;
-  background-color: #990000;
+  background-color: #ffffff;
 }
 body {
   color: #fff;
