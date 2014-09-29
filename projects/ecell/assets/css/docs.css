@@ -1478,3 +1478,7 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+
+hr.small {
+    max-width: 100px;
+}
