@@ -2,6 +2,8 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html,
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -168,4 +170,6 @@ width:20%;
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
 }
