@@ -47,6 +47,7 @@ body {
   z-index: 10;
   margin:0 auto; !important 
  width:100%;
+ height:auto;
 
 }
 
@@ -80,6 +81,7 @@ width:20%;
 		background-position:center;
 }
 #myCarousel {
+      height: auto;
       width: 100%; // define suitable width here
 
     }
