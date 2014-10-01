@@ -79,6 +79,14 @@ width:20%;
 		
 		background-position:center;
 }
+#myCarousel {
+      width: 400px; // define suitable width here
+
+    }
+
+    .item img {
+           max-width: 100%;
+        }
 /*ends*/
 
 
