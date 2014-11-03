@@ -4479,6 +4479,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
+    background: #82CAFF;
   }
 }
 
