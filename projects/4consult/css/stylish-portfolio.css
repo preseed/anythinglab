@@ -65,7 +65,7 @@ hr.small {
 
 /* Side Menu */
 
-#sidebar-wrapper {
+/*#sidebar-wrapper {
     z-index: 1000;
     position: fixed;
     right: 0;
@@ -146,7 +146,7 @@ hr.small {
 
 .toggle {
     margin: 5px 5px 0 0;
-}
+} */
 
 /* Header */
 
