@@ -3228,7 +3228,7 @@ tbody.collapse.in {
   left: auto;
 }
 .dropup .caret,
-.navbar-fixed-bottom .dropdown .caret {
+/*.navbar-fixed-bottom .dropdown .caret {
   content: "";
   border-top: 0;
   border-bottom: 4px solid;
@@ -3248,7 +3248,7 @@ tbody.collapse.in {
     right: auto;
     left: 0;
   }
-}
+}*/
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3574,7 +3574,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .input-group-btn:last-child > .btn-group {
   margin-left: -1px;
 }
-.nav {
+/*.nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -4291,7 +4291,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
-}
+}*/
 .breadcrumb {
   padding: 8px 15px;
   margin-bottom: 20px;
@@ -5922,14 +5922,14 @@ button.close {
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:before,
 .btn-group-vertical > .btn-group:after,
-.nav:before,
+/*.nav:before,
 .nav:after,
 .navbar:before,
 .navbar:after,
 .navbar-header:before,
 .navbar-header:after,
 .navbar-collapse:before,
-.navbar-collapse:after,
+.navbar-collapse:after,*/
 .pager:before,
 .pager:after,
 .panel-body:before,
@@ -5947,10 +5947,10 @@ button.close {
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
-.nav:after,
+/*.nav:after,
 .navbar:after,
 .navbar-header:after,
-.navbar-collapse:after,
+.navbar-collapse:after,*/
 .pager:after,
 .panel-body:after,
 .modal-footer:after {
