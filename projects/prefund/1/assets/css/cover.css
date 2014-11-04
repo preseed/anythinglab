@@ -9,7 +9,7 @@ a:hover {
   color: #000;
 }
 .btn-block{
-  width:50%;
+  width:30%;
 
 }
 body{
@@ -24,8 +24,8 @@ body{
   overflow: none;
 }
 .btn-danger{
-  background-color:#990000;
-  border-color:#990000;
+  background-color:#3090C7;
+  border-color:#3090C7;
 }
 .btn-danger:hover{
   background-color:#990000;
