@@ -204,6 +204,10 @@ body {
   height: auto;
   max-width: 100%;
 }
+hr.small {
+    max-width: 100px;
+}
+
 
 
 /*
