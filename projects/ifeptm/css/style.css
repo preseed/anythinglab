@@ -465,7 +465,7 @@ CITY DESCRIPTION AND FACTS CONTENTS
   min-width: 300px;
   font-size: 2.1875em;
   /*font-family: 'Lato', sans-serif;*/
-  font-family:Courier New;
+  font-family:Arial;
 }
 
 .city-description {
@@ -475,7 +475,7 @@ CITY DESCRIPTION AND FACTS CONTENTS
    line-height: 1.8125em;
   font-weight: 300;
    font-size: 1.124375em;
-   font-family:Courier New;
+   font-family:Arial;
 }
 /**.city-description i {
 	
