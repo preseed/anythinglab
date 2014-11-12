@@ -462,19 +462,20 @@ CITY DESCRIPTION AND FACTS CONTENTS
   margin-bottom: 0;
   padding: 0;
   text-align: center;
-  /*min-width: 300px;
-  font-size: 2.1875em;*/
-  font-family: 'Lato', sans-serif;
+  min-width: 300px;
+  font-size: 2.1875em;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family:Courier New;
 }
 
 .city-description {
   margin: 40px auto 0 auto;
   text-align: left;
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
    line-height: 1.8125em;
-  /*font-weight: 300;
- 
-  font-size: 1.124375em;*/
+  font-weight: 300;
+   font-size: 1.124375em;
+   font-family:Courier New;
 }
 /**.city-description i {
 	
