@@ -129,7 +129,7 @@ FEATURE CONTENT
     font-size: 1.050em;
     color: #fff;
     letter-spacing: 0.125em;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 .bonjour-main a:nth-child(3),
@@ -1064,6 +1064,71 @@ MEDIA QUERIES
     }
  } 
 
+}
+
+
+
+
+
+
+.order {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  width: 300px;
+  height: 200px;
+}
+.order a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+}
+.order a:hover {
+  cursor: pointer;
+}
+.order span {
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+  text-align: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  padding-top: 67px;
+}
+
+@media screen and (max-width: 600px) {
+ 
+.order {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  width: auto;
+  height: auto;
+}
+.order a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.order a:hover {
+  cursor: pointer;
+}
+.order span {
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+  text-align: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  
 }
 
 
